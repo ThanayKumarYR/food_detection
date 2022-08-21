@@ -67,7 +67,7 @@
       let modelLoaded = false;
       async function loadmodel() {
         model = await tf.loadLayersModel("bestmodel/model.json");
-        console.log("loaded");
+        console.log("Model successfully loaded");
         modelLoaded = true;
       }
       loadmodel();
